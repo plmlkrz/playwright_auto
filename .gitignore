@@ -5,3 +5,4 @@ playwright-report/
 .playwright/
 *.env
 .idea/
+cucumber-report.html

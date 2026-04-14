@@ -6,15 +6,19 @@
   "scripts": {
     "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "cucumber": "npx cucumber-js",
+    "cucumber:report": "start cucumber-report.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@cucumber/cucumber": "^12.8.1",
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
   }
 }
